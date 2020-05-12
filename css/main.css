@@ -189,6 +189,31 @@ textarea {
   font-family: 'Exo', sans-serif;
   font-size: 7em;
   color: #fb5b5a;
+  letter-spacing: 5px;
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+}
+
+.logo a {
+  text-decoration: none;
+  color: #de393d;
+}
+
+.logo a:hover {
+  text-decoration: none;
+}
+
+.logo .github:hover {
+  color: #fbfbed;
+}
+
+.logo .instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo .linkedin:hover {
+  color: #2867B2;
 }
 
 /* ==========================================================================
